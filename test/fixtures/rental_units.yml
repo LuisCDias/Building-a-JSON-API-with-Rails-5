@@ -5,9 +5,11 @@ one:
   rooms: 1
   bathrooms: 1
   price_cents: 1
+  user: 
 
 two:
   address: MyString
   rooms: 1
   bathrooms: 1
   price_cents: 1
+  user: 

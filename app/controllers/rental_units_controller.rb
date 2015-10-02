@@ -46,6 +46,6 @@ class RentalUnitsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def rental_unit_params
-      params.require(:rental_unit).permit(:address, :rooms, :bathrooms, :price_cents)
+      params.require(:rental_unit).permit(:address, :rooms, :bathrooms, :price_cents, :user_id)
     end
 end

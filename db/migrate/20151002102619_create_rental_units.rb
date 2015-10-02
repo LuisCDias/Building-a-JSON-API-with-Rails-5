@@ -5,6 +5,7 @@ class CreateRentalUnits < ActiveRecord::Migration
       t.integer :rooms
       t.integer :bathrooms
       t.integer :price_cents
+      t.references :user, index: true, foreign_key: true
 
       t.timestamps
     end
